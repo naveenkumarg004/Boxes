@@ -1,0 +1,61 @@
+/* Write your code here. */
+* {
+  margin: 10px;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 25px;
+  font-family: "Roboto";
+  color: #0f172a;
+  text-align: center;
+}
+.bg {
+  height: 100vh;
+}
+.box-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.box-s {
+  background-color: #fbbf24;
+  width: 80px;
+  height: 80px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-m {
+  background-color: #38bdf8;
+  width: 100px;
+  height: 100px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-l {
+  background-color: #ec4899;
+  width: 120px;
+  height: 120px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .box-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 5px;
+  }
+}
